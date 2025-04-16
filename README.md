@@ -12,6 +12,7 @@
 ## 项目结构
 spring boot 项目中项目框架已经搭建完毕，项目结构如下：
 
+```bash
 > src/main/java
 └── org.example
     ├── ComeOnClassApplication.java     // 启动类
@@ -21,6 +22,8 @@ spring boot 项目中项目框架已经搭建完毕，项目结构如下：
     ├── entity                          // 实体类（数据库中的一张表对应一个类）
     ├── repository                      // 数据访问层（也叫dao/mapper）
     └── config                          // 配置类
+
+```
 
 ## 环境说明
 apache-maven-3.9.6
