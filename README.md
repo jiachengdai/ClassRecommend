@@ -1,4 +1,5 @@
 
+## 项目参与人员
 |成员|昵称 | 身份|
 |--|--|--|
 | 李承烨 |李承烨 |管理|
@@ -7,10 +8,23 @@
 | 方银英 |方银英|开发|
 | 蔡子阳|有梦想的衰仔 |开发|
 
+## 项目结构
+spring boot 项目中项目框架已经搭建完毕，项目结构如下：
+src/main/java
+└── org.example
+    ├── ComeOnClassApplication.java     // 启动类
+    ├── controller                      // 控制器层（对外接口）
+    ├── service                         // 业务逻辑层
+    ├── service.impl                    // 业务实现类（可选）
+    ├── entity                          // 实体类（数据库中的一张表对应一个类）
+    ├── repository                      // 数据访问层（也叫dao/mapper）
+    └── config                          // 配置类
+
 ## 环境说明
 apache-maven-3.9.6
 SDK 21
 MySQL 8.0.x
+
 
 我的settings.xml,可做参考
 
