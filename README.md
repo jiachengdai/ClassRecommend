@@ -1,4 +1,5 @@
 
+
 ## 项目参与人员
 |成员|昵称 | 身份|
 |--|--|--|
@@ -10,7 +11,8 @@
 
 ## 项目结构
 spring boot 项目中项目框架已经搭建完毕，项目结构如下：
-src/main/java
+
+> src/main/java
 └── org.example
     ├── ComeOnClassApplication.java     // 启动类
     ├── controller                      // 控制器层（对外接口）
